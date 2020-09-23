@@ -1,0 +1,36 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "sites_kpmg_jc_name": {
+            "value": null
+        },
+        "virtualMachines_kpmg1_name": {
+            "value": null
+        },
+        "storageAccounts_kpmgjc_name": {
+            "value": null
+        },
+        "serverfarms_ASP_kpmgjc_9933_name": {
+            "value": null
+        },
+        "availabilitySets_kpmgav1_name": {
+            "value": null
+        },
+        "networkInterfaces_kpmg1183_name": {
+            "value": null
+        },
+        "publicIPAddresses_kpmg1_ip_name": {
+            "value": null
+        },
+        "virtualNetworks_kpmg_jc_vnet_name": {
+            "value": null
+        },
+        "networkSecurityGroups_kpmg1_nsg_name": {
+            "value": null
+        },
+        "storageAccounts_storageaccountkpmgja687_name": {
+            "value": null
+        }
+    }
+}
