@@ -1,0 +1,34 @@
+{
+  "bindings": [
+    {
+      "authLevel": "function",
+      "type": "httpTrigger",
+      "direction": "in",
+      "name": "Request",
+      "methods": [
+        "get",
+        "post"
+      ]
+    },
+    {
+      "type": "http",
+      "direction": "out",
+      "name": "Response"
+    },
+    {
+      "name": "outputTable",
+      "tableName": "kpmgjctable",
+      "connection": "kpmgjc_STORAGE",
+      "direction": "out",
+      "type": "table"
+    },
+    {
+      "name": "inputTable",
+      "tableName": "kpmgjctable",
+      "take": 50,
+      "connection": "kpmgjc_STORAGE",
+      "direction": "in",
+      "type": "table"
+    }
+  ]
+}
