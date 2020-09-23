@@ -1,0 +1,27 @@
+{
+  "bindings": [
+    {
+      "authLevel": "anonymous",
+      "type": "httpTrigger",
+      "direction": "in",
+      "name": "Request",
+      "methods": [
+        "get",
+        "post"
+      ]
+    },
+    {
+      "type": "http",
+      "direction": "out",
+      "name": "Response"
+    },
+    {
+      "name": "inputTable",
+      "direction": "in",
+      "type": "table",
+      "tableName": "kpmgjctable",
+      "take": 50,
+      "connection": "kpmgjc_STORAGE"
+    }
+  ]
+}
